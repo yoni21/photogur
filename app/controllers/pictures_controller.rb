@@ -20,7 +20,7 @@ class PicturesController < ApplicationController
     @picture.destroy
     redirect_to pictures_url
   end
-
+  
   def update
     @picture = Picture.find(params[:id])
 
